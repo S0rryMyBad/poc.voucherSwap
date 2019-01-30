@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		447C92F82201BEB30043F5E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C92F72201BEB30043F5E6 /* AppDelegate.m */; };
+		447C92FB2201BEB30043F5E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C92FA2201BEB30043F5E6 /* ViewController.m */; };
+		447C92FE2201BEB30043F5E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447C92FC2201BEB30043F5E6 /* Main.storyboard */; };
+		447C93002201BEB40043F5E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 447C92FF2201BEB40043F5E6 /* Assets.xcassets */; };
+		447C93032201BEB40043F5E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447C93012201BEB40043F5E6 /* LaunchScreen.storyboard */; };
+		447C93062201BEB40043F5E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C93052201BEB40043F5E6 /* main.m */; };
+		447C93102201BEB40043F5E6 /* poc_voucherSwapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C930F2201BEB40043F5E6 /* poc_voucherSwapTests.m */; };
+		447C931B2201BEB40043F5E6 /* poc_voucherSwapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C931A2201BEB40043F5E6 /* poc_voucherSwapUITests.m */; };
+		447C932A2201BEF10043F5E6 /* voucherSwap.c in Sources */ = {isa = PBXBuildFile; fileRef = 447C93292201BEF10043F5E6 /* voucherSwap.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		447C930C2201BEB40043F5E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 447C92EB2201BEB30043F5E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 447C92F22201BEB30043F5E6;
+			remoteInfo = poc.voucherSwap;
+		};
+		447C93172201BEB40043F5E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 447C92EB2201BEB30043F5E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 447C92F22201BEB30043F5E6;
+			remoteInfo = poc.voucherSwap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		447C92F32201BEB30043F5E6 /* poc.voucherSwap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = poc.voucherSwap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		447C92F62201BEB30043F5E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		447C92F72201BEB30043F5E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		447C92F92201BEB30043F5E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		447C92FA2201BEB30043F5E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		447C92FD2201BEB30043F5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		447C92FF2201BEB40043F5E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		447C93022201BEB40043F5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		447C93042201BEB40043F5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447C93052201BEB40043F5E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		447C930B2201BEB40043F5E6 /* poc.voucherSwapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = poc.voucherSwapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		447C930F2201BEB40043F5E6 /* poc_voucherSwapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = poc_voucherSwapTests.m; sourceTree = "<group>"; };
+		447C93112201BEB40043F5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447C93162201BEB40043F5E6 /* poc.voucherSwapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = poc.voucherSwapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		447C931A2201BEB40043F5E6 /* poc_voucherSwapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = poc_voucherSwapUITests.m; sourceTree = "<group>"; };
+		447C931C2201BEB40043F5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		447C93282201BEF10043F5E6 /* voucherSwap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = voucherSwap.h; sourceTree = "<group>"; };
+		447C93292201BEF10043F5E6 /* voucherSwap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = voucherSwap.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		447C92F02201BEB30043F5E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447C93082201BEB40043F5E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447C93132201BEB40043F5E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		447C92EA2201BEB30043F5E6 = {
+			isa = PBXGroup;
+			children = (
+				447C92F52201BEB30043F5E6 /* poc.voucherSwap */,
+				447C930E2201BEB40043F5E6 /* poc.voucherSwapTests */,
+				447C93192201BEB40043F5E6 /* poc.voucherSwapUITests */,
+				447C92F42201BEB30043F5E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		447C92F42201BEB30043F5E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				447C92F32201BEB30043F5E6 /* poc.voucherSwap.app */,
+				447C930B2201BEB40043F5E6 /* poc.voucherSwapTests.xctest */,
+				447C93162201BEB40043F5E6 /* poc.voucherSwapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		447C92F52201BEB30043F5E6 /* poc.voucherSwap */ = {
+			isa = PBXGroup;
+			children = (
+				447C92F62201BEB30043F5E6 /* AppDelegate.h */,
+				447C92F72201BEB30043F5E6 /* AppDelegate.m */,
+				447C92F92201BEB30043F5E6 /* ViewController.h */,
+				447C92FA2201BEB30043F5E6 /* ViewController.m */,
+				447C92FC2201BEB30043F5E6 /* Main.storyboard */,
+				447C92FF2201BEB40043F5E6 /* Assets.xcassets */,
+				447C93012201BEB40043F5E6 /* LaunchScreen.storyboard */,
+				447C93042201BEB40043F5E6 /* Info.plist */,
+				447C93052201BEB40043F5E6 /* main.m */,
+				447C93282201BEF10043F5E6 /* voucherSwap.h */,
+				447C93292201BEF10043F5E6 /* voucherSwap.c */,
+			);
+			path = poc.voucherSwap;
+			sourceTree = "<group>";
+		};
+		447C930E2201BEB40043F5E6 /* poc.voucherSwapTests */ = {
+			isa = PBXGroup;
+			children = (
+				447C930F2201BEB40043F5E6 /* poc_voucherSwapTests.m */,
+				447C93112201BEB40043F5E6 /* Info.plist */,
+			);
+			path = poc.voucherSwapTests;
+			sourceTree = "<group>";
+		};
+		447C93192201BEB40043F5E6 /* poc.voucherSwapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				447C931A2201BEB40043F5E6 /* poc_voucherSwapUITests.m */,
+				447C931C2201BEB40043F5E6 /* Info.plist */,
+			);
+			path = poc.voucherSwapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		447C92F22201BEB30043F5E6 /* poc.voucherSwap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447C931F2201BEB40043F5E6 /* Build configuration list for PBXNativeTarget "poc.voucherSwap" */;
+			buildPhases = (
+				447C92EF2201BEB30043F5E6 /* Sources */,
+				447C92F02201BEB30043F5E6 /* Frameworks */,
+				447C92F12201BEB30043F5E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = poc.voucherSwap;
+			productName = poc.voucherSwap;
+			productReference = 447C92F32201BEB30043F5E6 /* poc.voucherSwap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		447C930A2201BEB40043F5E6 /* poc.voucherSwapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447C93222201BEB40043F5E6 /* Build configuration list for PBXNativeTarget "poc.voucherSwapTests" */;
+			buildPhases = (
+				447C93072201BEB40043F5E6 /* Sources */,
+				447C93082201BEB40043F5E6 /* Frameworks */,
+				447C93092201BEB40043F5E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				447C930D2201BEB40043F5E6 /* PBXTargetDependency */,
+			);
+			name = poc.voucherSwapTests;
+			productName = poc.voucherSwapTests;
+			productReference = 447C930B2201BEB40043F5E6 /* poc.voucherSwapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		447C93152201BEB40043F5E6 /* poc.voucherSwapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 447C93252201BEB40043F5E6 /* Build configuration list for PBXNativeTarget "poc.voucherSwapUITests" */;
+			buildPhases = (
+				447C93122201BEB40043F5E6 /* Sources */,
+				447C93132201BEB40043F5E6 /* Frameworks */,
+				447C93142201BEB40043F5E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				447C93182201BEB40043F5E6 /* PBXTargetDependency */,
+			);
+			name = poc.voucherSwapUITests;
+			productName = poc.voucherSwapUITests;
+			productReference = 447C93162201BEB40043F5E6 /* poc.voucherSwapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		447C92EB2201BEB30043F5E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Niko Tidar Lantang Perkasa";
+				TargetAttributes = {
+					447C92F22201BEB30043F5E6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					447C930A2201BEB40043F5E6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 447C92F22201BEB30043F5E6;
+					};
+					447C93152201BEB40043F5E6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 447C92F22201BEB30043F5E6;
+					};
+				};
+			};
+			buildConfigurationList = 447C92EE2201BEB30043F5E6 /* Build configuration list for PBXProject "poc.voucherSwap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 447C92EA2201BEB30043F5E6;
+			productRefGroup = 447C92F42201BEB30043F5E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				447C92F22201BEB30043F5E6 /* poc.voucherSwap */,
+				447C930A2201BEB40043F5E6 /* poc.voucherSwapTests */,
+				447C93152201BEB40043F5E6 /* poc.voucherSwapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		447C92F12201BEB30043F5E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447C93032201BEB40043F5E6 /* LaunchScreen.storyboard in Resources */,
+				447C93002201BEB40043F5E6 /* Assets.xcassets in Resources */,
+				447C92FE2201BEB30043F5E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447C93092201BEB40043F5E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447C93142201BEB40043F5E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		447C92EF2201BEB30043F5E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447C92FB2201BEB30043F5E6 /* ViewController.m in Sources */,
+				447C932A2201BEF10043F5E6 /* voucherSwap.c in Sources */,
+				447C93062201BEB40043F5E6 /* main.m in Sources */,
+				447C92F82201BEB30043F5E6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447C93072201BEB40043F5E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447C93102201BEB40043F5E6 /* poc_voucherSwapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		447C93122201BEB40043F5E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447C931B2201BEB40043F5E6 /* poc_voucherSwapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		447C930D2201BEB40043F5E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 447C92F22201BEB30043F5E6 /* poc.voucherSwap */;
+			targetProxy = 447C930C2201BEB40043F5E6 /* PBXContainerItemProxy */;
+		};
+		447C93182201BEB40043F5E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 447C92F22201BEB30043F5E6 /* poc.voucherSwap */;
+			targetProxy = 447C93172201BEB40043F5E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		447C92FC2201BEB30043F5E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				447C92FD2201BEB30043F5E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		447C93012201BEB40043F5E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				447C93022201BEB40043F5E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		447C931D2201BEB40043F5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		447C931E2201BEB40043F5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		447C93202201BEB40043F5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGFQ7LTHG6;
+				INFOPLIST_FILE = poc.voucherSwap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "betmen.poc-voucherSwap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		447C93212201BEB40043F5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGFQ7LTHG6;
+				INFOPLIST_FILE = poc.voucherSwap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "betmen.poc-voucherSwap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		447C93232201BEB40043F5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = poc.voucherSwapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "betmen.poc-voucherSwapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poc.voucherSwap.app/poc.voucherSwap";
+			};
+			name = Debug;
+		};
+		447C93242201BEB40043F5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = poc.voucherSwapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "betmen.poc-voucherSwapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poc.voucherSwap.app/poc.voucherSwap";
+			};
+			name = Release;
+		};
+		447C93262201BEB40043F5E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = poc.voucherSwapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "betmen.poc-voucherSwapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = poc.voucherSwap;
+			};
+			name = Debug;
+		};
+		447C93272201BEB40043F5E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = poc.voucherSwapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "betmen.poc-voucherSwapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = poc.voucherSwap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		447C92EE2201BEB30043F5E6 /* Build configuration list for PBXProject "poc.voucherSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447C931D2201BEB40043F5E6 /* Debug */,
+				447C931E2201BEB40043F5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447C931F2201BEB40043F5E6 /* Build configuration list for PBXNativeTarget "poc.voucherSwap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447C93202201BEB40043F5E6 /* Debug */,
+				447C93212201BEB40043F5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447C93222201BEB40043F5E6 /* Build configuration list for PBXNativeTarget "poc.voucherSwapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447C93232201BEB40043F5E6 /* Debug */,
+				447C93242201BEB40043F5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		447C93252201BEB40043F5E6 /* Build configuration list for PBXNativeTarget "poc.voucherSwapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				447C93262201BEB40043F5E6 /* Debug */,
+				447C93272201BEB40043F5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 447C92EB2201BEB30043F5E6 /* Project object */;
+}
